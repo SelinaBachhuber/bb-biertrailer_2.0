@@ -1,14 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import exteriorPhoto from '../../images/galerie_außen.JPEG';
+import exteriorPhoto from '../../images/galerie_außen.jpeg';
 import exteriorLightsPhoto from '../../images/galerie_außenlicht.jpg';
-import interiorOnePhoto from '../../images/galerie_innen1.JPEG';
-import interiorTwoPhoto from '../../images/galerie_innen2.JPEG';
-import interiorLightsPhoto from '../../images/galerie_innenlicht.JPG';
+import interiorOnePhoto from '../../images/galerie_innen1.jpeg';
+import interiorTwoPhoto from '../../images/galerie_innen2.jpeg';
+import interiorLightsPhoto from '../../images/galerie_innenlicht.jpg';
 import trailerPhoto from '../../images/galerie_titel.png';
-import washAreaPhoto from '../../images/galerie_waschbecken.JPEG';
+import washAreaPhoto from '../../images/galerie_waschbecken.jpeg';
 import christmasPhoto from '../../images/galerie_weihnachten.png';
 import eventPhoto from '../../images/biertrailer.jpg';
+
+export const metadata = {
+  title: 'Galerie',
+  description: 'Einblicke in den Biertrailer, Ausschankbereich und Ausstattung bei Veranstaltungen.',
+};
 
 const photos = [
   {

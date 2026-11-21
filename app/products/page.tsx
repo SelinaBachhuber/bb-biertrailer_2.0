@@ -3,6 +3,11 @@ import Link from 'next/link';
 import trailerPhoto from '../../images/biertrailer.jpg';
 import CTA from '../components/CTA';
 
+export const metadata = {
+  title: 'Ausschankwagen mieten',
+  description: 'Mobilen Ausschankwagen mit Stehtischen für dein Fest in Dietfurt an der Altmühl und Umgebung mieten.',
+};
+
 const details = [
   'Stehtische sind beim Ausschankwagen dabei',
   'Mit oder ohne Personal buchbar',

@@ -1,8 +1,8 @@
 {
   "name": "bb-biertrailer",
   "version": "1.0.0",
-  "description": "A modern and professional website for renting beer trailers and related services.",
-  "main": "index.js",
+  "private": true,
+  "description": "Website für die Vermietung eines mobilen Biertrailers und von Ausschankleistungen.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,29 +10,27 @@
     "lint": "eslint ."
   },
   "keywords": [
-    "beer",
-    "trailer",
-    "rental",
-    "services"
+    "Biertrailer",
+    "Ausschankwagen",
+    "Zapfanlage",
+    "Vermietung"
   ],
-  "author": "Your Name",
-  "license": "MIT",
+  "author": "BB's Biertrailer",
   "dependencies": {
-    "next": "^13.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "next": "^16.4.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sharp": "^0.35.5",
     "tailwindcss": "^3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^18.19.130",
-    "@types/react": "^18.3.31",
-    "@types/react-dom": "^18.3.7",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "autoprefixer": "^10.7.0",
-    "eslint": "^8.0.0",
-    "eslint-config-next": "^13.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.4.6",
     "postcss": "^8.0.0",
-    "typescript": "^4.0.0"
+    "typescript": "^5.9.0"
   }
 }

@@ -1,5 +1,10 @@
 import ContactSection from '../components/sections/ContactSection';
 
+export const metadata = {
+  title: 'Anfrage',
+  description: 'Verfügbarkeit für deinen Wunschtermin persönlich per Telefon oder E-Mail anfragen.',
+};
+
 export default function ContactPage() {
   return (
     <>

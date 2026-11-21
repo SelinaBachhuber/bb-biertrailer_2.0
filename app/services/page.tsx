@@ -1,6 +1,11 @@
 import ServiceSection from '../components/sections/ServiceSection';
 import CTA from '../components/CTA';
 
+export const metadata = {
+  title: 'Leistungen',
+  description: 'Flexible Leistungen rund um Ausschankwagen, mobile Zapfanlage, Getränke und Personal.',
+};
+
 export default function ServicesPage() {
   return (
     <>

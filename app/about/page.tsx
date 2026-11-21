@@ -1,6 +1,11 @@
 import AboutSection from '../components/sections/AboutSection';
 import CTA from '../components/CTA';
 
+export const metadata = {
+  title: 'Über uns',
+  description: 'Regionaler, persönlicher und unkomplizierter Ausschankwagen-Service aus Dietfurt an der Altmühl.',
+};
+
 export default function AboutPage() {
   return (
     <>

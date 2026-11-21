@@ -3,6 +3,11 @@ import { content } from '../../src/data/content';
 import facebookIcon from '../../images/facebook_icon.png';
 import instagramIcon from '../../images/insta (1).png';
 
+export const metadata = {
+  title: 'Impressum',
+  description: 'Impressum und Kontaktdaten von BB\'s Biertrailer.',
+};
+
 export default function ImpressumPage() {
   return (
     <>

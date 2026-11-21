@@ -5,7 +5,10 @@ import Footer from './components/Footer';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: "BB's Biertrailer | Ausschankwagen & mobile Zapfanlage mieten",
+  title: {
+    default: "BB's Biertrailer | Ausschankwagen & mobile Zapfanlage mieten",
+    template: "%s | BB's Biertrailer",
+  },
   description:
     "Ausschankwagen mit Stehtischen oder mobile Zapfanlage in Dietfurt an der Altmühl mieten. Flexibel, persönlich und unkompliziert anfragen.",
 };
