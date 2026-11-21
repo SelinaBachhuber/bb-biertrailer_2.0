@@ -4,7 +4,7 @@ import exteriorPhoto from '../../images/galerie_außen.jpeg';
 import exteriorLightsPhoto from '../../images/galerie_außenlicht.jpg';
 import interiorOnePhoto from '../../images/galerie_innen1.jpeg';
 import interiorTwoPhoto from '../../images/galerie_innen2.jpeg';
-import interiorLightsPhoto from '../../images/galerie_innenlicht.jpg';
+import interiorLightsPhoto from '../../images/galerie_wagen_innenraum.jpg';
 import trailerPhoto from '../../images/galerie_titel.png';
 import washAreaPhoto from '../../images/galerie_waschbecken.jpeg';
 import christmasPhoto from '../../images/galerie_weihnachten.png';
