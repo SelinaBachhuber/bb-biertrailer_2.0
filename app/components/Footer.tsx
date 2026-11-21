@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} BB&apos;s Biertrailer</span>
+          <span>Version 2.0 · BB&apos;s Biertrailer</span>
           <Link href="/contact">Kontakt aufnehmen</Link>
         </div>
       </div>
