@@ -11,7 +11,7 @@ export default function Hero() {
             <span className="eyebrow">BB&apos;s Biertrailer · Dietfurt</span>
             <h1>Dein Event.<br /><span>Dein Ausschank.</span></h1>
             <p className="hero-copy">
-              Der mobile Ausschankwagen für Hochzeiten, Vereinsfeste und
+              Der mobile Ausschankwagen für Geburtstage, Vereinsfeste und
               besondere Momente. Persönlich geplant, flexibel gemietet.
             </p>
             <div className="button-row">

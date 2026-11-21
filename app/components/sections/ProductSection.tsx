@@ -4,7 +4,7 @@ const options = [
   {
     icon: '01',
     title: 'Der Ausschankwagen',
-    description: 'Ein mobiler Mittelpunkt für deine Feier – ganz gleich, ob Gartenfest, Hochzeit oder Vereinsfest.',
+    description: 'Ein mobiler Mittelpunkt für deine Feier – ob bei Gartenfesten, Geburtstagen oder Vereinsfesten.',
   },
   {
     icon: '02',

@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import Link from 'next/link';
+import wheatLogo from '../../images/weizen.png';
 
 export default function Footer() {
   return (
@@ -7,11 +9,11 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <Link className="brand footer-brand" href="/">
-              <span className="brand-mark" aria-hidden="true">BB</span>
+              <Image className="header-logo" src={wheatLogo} alt="" />
               <span>BB&apos;s Biertrailer</span>
             </Link>
             <p className="footer-copy">
-              Mobiler Ausschank für Feste und Veranstaltungen in Dietfurt an der Altmühl und Umgebung.
+              Ob nebenan oder weiter entfernt – wir kommen dorthin, wo gefeiert wird. Fragen Sie Ihren Wunschtermin einfach unverbindlich an.
             </p>
           </div>
           <div className="footer-column">
