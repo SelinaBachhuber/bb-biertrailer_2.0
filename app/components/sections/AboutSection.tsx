@@ -2,7 +2,15 @@ import Image from 'next/image';
 import Link from 'next/link';
 import trailerPhoto from '../../../images/biertrailer.jpg';
 
-export default function AboutSection() {
+type AboutSectionProps = {
+  ctaHref?: string;
+  ctaLabel?: string;
+};
+
+export default function AboutSection({
+  ctaHref = '/about',
+  ctaLabel = 'Mehr über uns erfahren',
+}: AboutSectionProps) {
   return (
     <section className="section section-white">
       <div className="container split-section">
@@ -27,7 +35,9 @@ export default function AboutSection() {
             <li><span className="check-mark" aria-hidden="true">✓</span>Flexible Mietdauer – vom Abend bis zu mehreren Wochen</li>
             <li><span className="check-mark" aria-hidden="true">✓</span>Anlieferung am Vortag nach Absprache möglich</li>
           </ul>
-          <Link className="button button-light" href="/about">Mehr über uns erfahren <span aria-hidden="true">→</span></Link>
+          <Link className="button button-light" href={ctaHref}>
+            {ctaLabel} <span aria-hidden="true">→</span>
+          </Link>
         </div>
       </div>
     </section>

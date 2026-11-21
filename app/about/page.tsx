@@ -16,7 +16,10 @@ export default function AboutPage() {
           <p>Ein Ansprechpartner, flexible Möglichkeiten und ein mobiler Ausschank für besondere gemeinsame Momente.</p>
         </div>
       </section>
-      <AboutSection />
+      <AboutSection
+        ctaHref="/contact"
+        ctaLabel="Jetzt unverbindlich anfragen"
+      />
       <CTA />
     </>
   );
